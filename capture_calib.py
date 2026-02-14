@@ -216,7 +216,7 @@ print(f"Baseline: {baseline*100:.2f} cm")
 # === Save Calibration Data ===
 print("\n=== Saving calibration data ===")
 
-np.savez("stereo_calib.npz",
+np.savez("stereo_calib3.npz",
          cameraMatrix1=cameraMatrix1, distCoeffs1=distCoeffs1,
          cameraMatrix2=cameraMatrix2, distCoeffs2=distCoeffs2,
          R=R, T=T, E=E, F=F, 
@@ -225,7 +225,7 @@ np.savez("stereo_calib.npz",
          baseline_cm=baseline*100,
          rms_error=retval)
 
-print("✅ Saved calibration data to: stereo_calib.npz")
+print("✅ Saved calibration data to: stereo_calib3.npz")
 
 # === Quick Verification ===
 print("\n=== Quick verification ===")
@@ -268,7 +268,7 @@ Stereo RMS error: {retval:.4f}
 Baseline: {baseline*100:.2f} cm
 
 Files saved:
-• stereo_calib.npz (OpenCV format)
+• stereo_calib3.npz (OpenCV format)
 
 Press any key to exit...
 """

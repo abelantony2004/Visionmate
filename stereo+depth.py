@@ -15,7 +15,7 @@ except ImportError:
     print("Install: pip install ultralytics")
 
 class StereoYOLODepth:
-    def __init__(self, calibration_file='stereo_calib1.npz'):
+    def __init__(self, calibration_file='stereo_calib3.npz'):
         """
         Complete Stereo Vision System with YOLO Object Detection and Depth Measurement
         Uses your calibration (8x6 chessboard, 36mm squares)
@@ -668,7 +668,7 @@ def main():
     print("Starting Stereo Vision + YOLO + Depth System...")
     
     # Check for calibration file
-    calib_files = ['stereo_calib.npz', 'stereo_calibration.npz']
+    calib_files = ['stereo_calib3.npz', 'stereo_calibration3.npz']
     calib_file = None
     
     for file in calib_files:

@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "/home/mevin/yolo_object/bin/python3",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/mevin/yolo_object/bin:${env:PATH}"
+    }
+}
