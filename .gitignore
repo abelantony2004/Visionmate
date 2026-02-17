@@ -1,2 +1,7 @@
 calib/
 lib/
+lib64/
+test_imgs/
+calibration/
+calibration_imgs/
+include/

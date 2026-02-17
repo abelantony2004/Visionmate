@@ -1,5 +1,4 @@
 import cv2
-import pytesseract
 import numpy as np
 
 def get_better_ocr_system(image_path):
