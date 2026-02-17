@@ -240,7 +240,7 @@ def get_better_ocr_system(image_path, autocorrect: bool = True, confidence_thres
         return None
 
 # Test the function
-image_file = 'test_imgs/darkshield-ocr-image-preprocessing-final-skewed-result.png'
+image_file = 'OCR/test_imgs/20260218_01h39m06s_grim.png'
 extracted_text = get_better_ocr_system(image_file, autocorrect=True, confidence_threshold=70.0)
 
 if extracted_text:
